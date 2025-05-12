@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+## Table of Contents
+
 ### Data Source
 
 The data for this project was obtained from the Kaggle dataset titled *Rain in Australia*, which originates from the Australian Bureau of Meteorology's Daily Weather Observations. Further weather-related information for Australia is available through the bureau’s Climate Data Online web application.
@@ -12,4 +14,22 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ### Repository Stucture
 
-<pre> ```text ├── images/ # Exported images of plots ├── saved_models/ # Saved hyperparameter-tuned models for quick access ├── submissions/ # Files used for the project submissions ├── .gitignore ├── LICENSE ├── README.md ├── notebook.ipynb # Jupyter notebook containing the analysis and models └── weatherAUS.csv # Data on weather conditions in Australia ``` </pre>
+## 📁 Project Structure
+
+```
+├── images/          # Exported images of plots
+├── saved_models/    # Saved hyperparameter-tuned models for quick access
+├── submissions/     # Files used for the project submissions
+├── .gitignore
+├── LICENSE
+├── README.md
+├── notebook.ipynb   # Jupyter notebook containing the analysis and models 
+└── weatherAUS.csv   # Data on weather conditions in Australia
+```
+
+## Exploratory Data Analysis
+
+
+
+
+
