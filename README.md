@@ -29,6 +29,8 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ## Exploratory Data Analysis
 
+### Column Definitions
+
 
 
 
