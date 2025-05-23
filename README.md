@@ -57,7 +57,7 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 | RainToday         | Did the current day receive precipitation exceeding 1mm in the 24 hours to 9am | Binary (0 = No, 1 = Yes) |
 | RainTomorrow      | Did the next day receive precipitation exceeding 1mm in the 24 hours to 9am    | Binary (0 = No, 1 = Yes) |
 
-
+### Insights
 
 
 
