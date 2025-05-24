@@ -70,6 +70,12 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ![image](https://github.com/user-attachments/assets/134c2623-1579-4b4f-b848-02fe62ab9695)
 
+### Correlation Matrix
+
+![image](https://github.com/user-attachments/assets/69ad631a-f959-427c-be7f-360af1c5d1be)
+
+
+
 
 
 
