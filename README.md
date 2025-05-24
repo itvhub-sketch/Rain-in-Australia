@@ -62,6 +62,11 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ![image](https://github.com/user-attachments/assets/50e74093-db38-40fa-853a-f89e95b3a80a)
 
+### Rain Days by Location
+
+![image](https://github.com/user-attachments/assets/1fb2d303-e129-4faf-9cb7-fe23daab0eb3)
+
+
 
 
 
