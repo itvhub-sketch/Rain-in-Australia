@@ -66,6 +66,17 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ![image](https://github.com/user-attachments/assets/1fb2d303-e129-4faf-9cb7-fe23daab0eb3)
 
+### Seasonality of Rainfall
+
+![image](https://github.com/user-attachments/assets/134c2623-1579-4b4f-b848-02fe62ab9695)
+
+
+
+
+
+
+
+
 
 
 
