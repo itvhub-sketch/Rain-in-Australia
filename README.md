@@ -74,6 +74,18 @@ Weather, and our ability to predict it accurately, plays a vital role in numerou
 
 ![image](https://github.com/user-attachments/assets/69ad631a-f959-427c-be7f-360af1c5d1be)
 
+# Data Preprocessing
+
+## Missing Values
+
+The SimpleImputer is better suited for this project because it offers a fast, efficient, and straightforward approach to handling missing data, which is ideal when working with structured weather datasets. Since many of the missing values in this dataset can be reasonably estimated using statistical measures like the mean, median, or most frequent value, SimpleImputer provides an effective solution without introducing unnecessary complexity. It ensures that the dataset remains consistent and fully numeric, which is important for downstream analysis such as plotting distributions, computing correlations, or training machine learning models. Unlike more complex imputers such as IterativeImputer, which require multiple passes and model-based predictions, SimpleImputer completes the task in a single operation, reducing computational overhead. This makes it ideal for exploratory data analysis and visualization stages of the project, where simplicity, speed, and interpretability are more important than precision. Additionally, it avoids overfitting or bias that could result from imputation models trained on small or noisy subsets.
+
+## Categorical data
+
+In this project, any categorical columns with missing values are handled by replacing the missing entries with the label `"unknown"`. This method ensures that no data is lost by avoiding the need to drop rows with missing values, which is especially important when preserving the overall structure and size of the dataset. By labeling these missing categories explicitly, the dataset remains complete and consistent, and the `"unknown"` label acts as a clear marker that indicates missing information without distorting the data. This approach is particularly suitable for categorical features where statistical imputation methods, such as using the mean or median, are not applicable.
+
+
+
 
 
 
