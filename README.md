@@ -84,10 +84,30 @@ The SimpleImputer is better suited for this project because it offers a fast, ef
 
 In this project, any categorical columns with missing values are handled by replacing the missing entries with the label `"unknown"`. This method ensures that no data is lost by avoiding the need to drop rows with missing values, which is especially important when preserving the overall structure and size of the dataset. By labeling these missing categories explicitly, the dataset remains complete and consistent, and the `"unknown"` label acts as a clear marker that indicates missing information without distorting the data. This approach is particularly suitable for categorical features where statistical imputation methods, such as using the mean or median, are not applicable.
 
+### ✅ **Explanation (in simple terms):**
 
+This sentence describes how missing values in a dataset were filled in:
 
+* For **numerical (continuous) columns**, a method called **IterativeImputer** was used. This fills in missing numbers by looking at patterns in the other columns and predicting what the missing value should be.
+* For **categorical columns** (which contain labels or categories), missing values were filled in using `np.random.choice()`. This randomly selects one of the existing categories, but gives more common values a higher chance of being chosen—based on how frequently they appear in the data.
 
+---
 
+## Extracting the Month
+
+ Day and month might have a significant impact on the prediction. For example in India, it is highly likely to rain in the monsoon than in winter. I broke date into day, month and year and then drop the date column from the dataset
+
+### 🆕 New Columns Created (during preprocessing)
+
+- `Year` — extracted from `Date`
+- `Month` — extracted from `Date`
+- `Day` — extracted from `Date`
+
+> 🔁 **Note**: The original `Date` column was dropped after extracting `Year`, `Month`, and `Day`.
+
+## Modeling
+
+from sklearn.tree import DecisionTreeClassifier
 
 
 
