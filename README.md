@@ -2,7 +2,13 @@
 
 ## Project Overview
 
-## Table of Contents
+This project aims to predict whether it will rain tomorrow using historical weather data from the Australian Bureau of Meteorology, accessed via Kaggle. The dataset contains various meteorological attributes, including temperature, humidity, wind, and atmospheric pressure, across multiple locations in Australia. To address the business need for accurate weather forecasting, especially for sectors like agriculture and logistics, a **Decision Tree Classifier** was employed due to its simplicity, interpretability, and effectiveness with both categorical and numerical data.
+
+The preprocessing steps involved imputing missing values using `SimpleImputer` for numerical features and replacing missing categorical entries with the label "unknown." The `Date` column was decomposed into new features: `Year`, `Month`, and `Day`, enabling the model to capture seasonal patterns. Categorical variables were transformed using one-hot encoding to prepare the data for training.
+
+Exploratory data analysis revealed seasonal trends and location-based variations in rainfall. The Decision Tree model was selected for its ability to handle nonlinear relationships and fast training time, making it suitable for this structured dataset. The model output can be integrated into a broader weather prediction system for real-time decision-making and planning.
+
+
 
 ### Data Source
 
